@@ -1,0 +1,28 @@
+.pessoa__imagem {
+    background: red;
+    background-size: cover;                  /*vai deixar a imagem ocupando todo o espaço do backgroud*/
+    height: 300px;
+    background-position: center;
+    width: 300px;
+    background-repeat: no-repeat;          /*se ficar pequena a iamgem e repetir ele não vai deixar repetir a imagem*/
+    border-radius: 100%;                  /*vai deixar a imagem arredondada*/
+}
+
+/* .pessoa__imagem {
+    background: red;
+    height: 300px;
+    width: 300px;
+} */
+.pessoa__imagem--roberta {
+    background-image: url('../../img/pessoas/roberta.jpg');
+
+}
+
+.pessoa__imagem--marcela {
+    background-image: url('../../img/pessoas/marcela.jpg');
+
+}
+
+.pessoa__imagem--andreia {
+    background-image: url('../../img/pessoas/andreia.jpg');
+}
